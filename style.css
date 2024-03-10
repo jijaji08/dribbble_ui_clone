@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'gilroy';
+}
+html,body{
+    height:100%;
+    width:100%;
+    background-color:#dfd7d7;
+}
+main{
+    height: 100%;
+    width:100%;
+}
+nav{
+    height: 13%;
+    width:100%;
+    /* background-color: royalblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 40px;
+}
+nav #nav-part1{
+    width:30%;
+    /* background-color: yellow; */
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+}
+#nav-part1 h2{
+    font-size: 1vw;
+    /* font-weight: 500; */
+}
+nav img{
+    width:7%;
+    /* height: 60%; */
+    /* background-color: yellow; */
+}
+nav #nav-part2{
+    width:30%;
+    /* background-color:yellow; */
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    gap:15px;
+}
+#nav-part2 #search{
+    width:56%;
+    height:30px;
+    background-color: #F4F5FB;
+    border-radius: 30px;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start; 
+    padding:23px;
+    gap:10px;
+}
+#search i{
+    font-size: 1vw;
+    font-weight: 600;
+    color:#73727F;
+}
+#search input{
+    /* height: 500%; */
+    width:100%;
+    background-color: transparent;
+    border:transparent;
+    font-size: 1vw;
+}
+#nav-part2 button{
+    padding:13px 16px;
+    border-radius: 30px;
+    font-size: 1vw;
+    font-weight: 600;
+    border:transparent;
+    background-color: transparent;
+}   
+#nav-part2 button:nth-child(3){
+    background-color: #000;
+    color:#fff;
+}
